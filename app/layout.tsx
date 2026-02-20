@@ -1,5 +1,6 @@
 import "./globals.css";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Valued News",
@@ -22,6 +23,8 @@ export default function RootLayout({
           src="https://pl28749930.effectivegatecpm.com/30/b2/dd/30b2ddd5841c7a135d3feff4ba662b42.js"
           strategy="afterInteractive"
         />
+
+        <SpeedInsights />
 
       </body>
     </html>
